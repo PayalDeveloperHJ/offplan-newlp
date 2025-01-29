@@ -29,6 +29,7 @@
 
 .banner_img>img {
   width: 100%;
+  height: auto;
 }
 
 .main_logo img {
@@ -63,6 +64,7 @@
 .singapore_page .list_box a>img {
   border-radius: 20px 20px 0 0;
   width: 100%;
+  height: auto;
 }
 
 .singapore_page .list_box .box_details {
@@ -99,7 +101,6 @@
 .list_box .box_details p.flate-type {
   color: #828d98;
   font-size: 18px;
-  font-family: "TT Commons", sans-serif;
 }
 
 .list_box .box_details h3 a {
@@ -172,7 +173,6 @@
   font-size: 18px;
   font-weight: 300;
   margin-bottom: 0;
-  font-family: "TT Commons", sans-serif;
 }
 
 .RegistrationFormModel {
@@ -328,14 +328,12 @@
   font-weight: 400 !important;
   border-radius: 0;
   color: #575756 !important;
-  font-family: 'TT Commons', sans-serif !important;
 }
 
 .registrationPopupForm .PhoneInputInput {
   font-size: 18px !important;
   font-weight: 400 !important;
   color: #575756 !important;
-  font-family: 'TT Commons', sans-serif !important;
   border: none;
   background: transparent;
 }
@@ -358,7 +356,6 @@
 .registrationPopupForm label {
   display: inline;
   color: #575756;
-  font-family: 'TT Commons', sans-serif !important;
   font-weight: 300;
   padding-left: 3px;
   font-size: 15px;
@@ -382,6 +379,7 @@
 
 .registration_img>img {
   width: 100%;
+  height: auto;
 }
 
 .mob_img {
@@ -442,7 +440,6 @@
 }
 
 .RegistrationFormModel .reg_desc p {
-  font-family: 'TT Commons', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 23px;

@@ -1,20 +1,10 @@
-@font-face {
-  font-family: 'TT Commons';
-  src: url('./fonts/TTCommonsRegular.otf') format('truetype');
-}
-
 /* @font-face {
-  font-family: 'Helvetica Neue';
-  src: url('./fonts/HelveticaNeue.ttc') format('truetype');
-} */
-
-@font-face {
   font-family: 'Helvetica Neue';
   src: url('https://fonts.cdnfonts.com/css/helvetica-neue-55?styles=15999') format('woff');
   font-display: swap;
-}
+} */
 
-/* @import url('https://fonts.cdnfonts.com/css/helvetica-neue-55?styles=15999'); */
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55?styles=15999');
 
 body {
   /* font-family: HelveticaNeue; */

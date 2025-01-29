@@ -9,7 +9,7 @@ import Modal from 'react-modal';
 // Set app element for accessibility
 Modal.setAppElement('#root');
 
-const RegistrationPopupForm = ({ isOpen, onRequestClose, RegistrationData }) => {
+const RegistrationPopupForm = ({ isOpen, onRequestClose, RegistrationData, defaultCountry }) => {
     const basePath = getBasePath();
     const [formData, setFormData] = useState({
         fullname: '',
@@ -18,25 +18,6 @@ const RegistrationPopupForm = ({ isOpen, onRequestClose, RegistrationData }) => 
     });
     const [error, setError] = useState('');
     const [isSubmitting, setIsSubmitting] = useState(false);
-    const [defaultCountry, setDefaultCountry] = useState('AE'); // Default country
-
-    useEffect(() => {
-        // Fetch user's location and set default country code
-        const fetchGeolocation = async () => {
-            try {
-                const response = await fetch('https://ipapi.co/json/');
-                if (!response.ok) throw new Error('Failed to fetch location');
-                const data = await response.json();
-                setDefaultCountry(data.country_code || 'AE'); // Fallback to 'AE' if not found
-            } catch (error) {
-                console.error('Geolocation error:', error);
-                setDefaultCountry('AE'); // Fallback to 'AE' on error
-            }
-        };
-
-        fetchGeolocation();
-    }, []);
-
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -141,19 +122,21 @@ const RegistrationPopupForm = ({ isOpen, onRequestClose, RegistrationData }) => 
                             <div className="row reg_align">
                                 <div className="col-lg-6 col-sm-6 col-12">
                                     <div className="registration_img">
-                                        <img
-                                            src={`${RegistrationData?.deskBanner}`} // Default image (desktop)
+                                    <img
+                                            src={`${basePath}/img/invitation-card.webp`} // Default image (desktop)
                                             alt="Registration"
                                             className="deck_img"
-                                            srcSet={`${RegistrationData?.deskBanner} 1x, ${RegistrationData?.deskBanner} 2x`} // For desktop
+                                            srcSet={`${basePath}/img/invitation-card.webp 1x, ${basePath}/img/invitation-card.webp 2x`} // For desktop
                                             sizes="(max-width: 767px) 100vw, 50vw" // If viewport is smaller than 768px, use 100% of the viewport width, otherwise 50%
+                                            loading="lazy"
                                         />
                                         <img
-                                            src={`${RegistrationData?.mobBanner}`} // Mobile version
+                                            src={`${basePath}/img/invitation-card-mobile.webp`} // Mobile version
                                             alt="Registration"
                                             className="mob_img"
-                                            srcSet={`${RegistrationData?.mobBanner} 1x, ${RegistrationData?.mobBanner} 2x`} // Mobile version with srcset
+                                            srcSet={`${basePath}/img/invitation-card-mobile.webp 1x, ${basePath}/img/invitation-card-mobile.webp 2x`} // Mobile version with srcset
                                             sizes="(max-width: 767px) 100vw, 50vw" // Same sizes, adjusts based on screen size
+                                            loading="lazy"
                                         />
                                     </div>
                                 </div>
@@ -193,10 +176,6 @@ const RegistrationPopupForm = ({ isOpen, onRequestClose, RegistrationData }) => 
                                             placeholder={'Email'}
                                             required
                                         />
-                                        {/* <input type="checkbox" id="agree1" name="agree1" />
-                                        <label htmlFor="agree1">
-                                            {'Keep me informed about upcoming property launches and exclusive offers.'}
-                                        </label> */}
                                         <input
                                             type="submit"
                                             value={isSubmitting ? 'Submitting...' : 'Submit'}

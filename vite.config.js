@@ -1,25 +1,56 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import viteCompression from 'vite-plugin-compression';
+import { visualizer } from 'rollup-plugin-visualizer'; // Use rollup-plugin-visualizer directly
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  base: '/lp/', // Adjust base if deploying in a subfolder
+  plugins: [
+    react(),
+    viteCompression({
+      algorithm: 'brotli',
+      ext: '.br',
+      deleteOriginFile: false,
+    }),
+    viteCompression({
+      algorithm: 'gzip',
+      ext: '.gz',
+      deleteOriginFile: false,
+    }),
+    visualizer({
+      filename: './dist/stats.html',
+      open: true,
+    }),
+  ],
+  base: '/lp/',
   build: {
-    // Minimize output
-    minify: 'terser', // Use Terser for better JS minification
+    minify: 'terser',
     terserOptions: {
       compress: {
-        drop_console: true, // Remove console logs in production
+        drop_console: true,
+        drop_debugger: true,
       },
     },
-    // Split code into smaller chunks (for better caching and lazy loading)
-    chunkSizeWarningLimit: 500, // Increase chunk size limit (in KB)
+    cssCodeSplit: true,
+    chunkSizeWarningLimit: 500,
     rollupOptions: {
       output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom'], // Split vendor libraries into their own chunk
+        manualChunks: (id) => {
+          if (id.includes('node_modules')) {
+            return 'vendor';
+          }
         },
+        entryFileNames: 'assets/[name].[hash].js',
+        chunkFileNames: 'assets/[name].[hash].js',
+        assetFileNames: 'assets/[name].[hash].[ext]',
+      },
+    },
+  },
+  server: {
+    proxy: {
+      '/geo': {
+        target: 'https://ipapi.co/json/',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/geo/, ''),
       },
     },
   },

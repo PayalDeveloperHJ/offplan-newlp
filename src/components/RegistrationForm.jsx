@@ -4,7 +4,7 @@ import PhoneInput from 'react-phone-number-input';
 // import ReCAPTCHA from 'react-google-recaptcha';
 import { parsePhoneNumberFromString } from 'libphonenumber-js'; // Import the validation library
 
-const RegistrationSection = ({ RegistrationData, lang }) => {
+const RegistrationSection = ({ RegistrationData, defaultCountry }) => {
     const [formData, setFormData] = useState({
         fullname: '',
         useremain: '',
@@ -14,25 +14,6 @@ const RegistrationSection = ({ RegistrationData, lang }) => {
 
     const [error, setError] = useState('');
     const [isSubmitting, setIsSubmitting] = useState(false);
-    // const [captchaResponse, setCaptchaResponse] = useState(null);
-    const [defaultCountry, setDefaultCountry] = useState('AE'); // Default country
-
-    useEffect(() => {
-        // Fetch user's location and set default country code
-        const fetchGeolocation = async () => {
-            try {
-                const response = await fetch('https://ipapi.co/json/');
-                if (!response.ok) throw new Error(`Failed to fetch location: ${response.statusText}`);
-                const data = await response.json();
-                setDefaultCountry(data.country_code || 'AE'); // Fallback to 'AE' if not found
-            } catch (error) {
-                console.error('Geolocation error:', error);
-                setDefaultCountry('AE'); // Fallback to 'AE' on error
-            }
-        };
-    
-        fetchGeolocation();
-    }, []);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -80,10 +61,8 @@ const RegistrationSection = ({ RegistrationData, lang }) => {
             name: formData.fullname,
             email: formData.useremain,
             mobile: formData.contactnumber,
-            // captchaResponse, // Send CAPTCHA response to LeadRat CRM
         }
-        // console.log("formSchema :: ", formSchema);
-        // return;
+
         fetch("https://connect.leadrat.com/api/v1/integration/GoogleAds", {
             method: "POST",
             headers: {

@@ -30,6 +30,24 @@ const HomePage = () => {
     const [isRegistrationModalOpen, setIsRegistrationModalOpen] = useState(false);
     const [hasScrolled, setHasScrolled] = useState(false);
     const [stopPopupOnScroll, setStopPopupOnScroll] = useState(true);
+    const [defaultCountry, setDefaultCountry] = useState('AE');
+
+        useEffect(() => {
+            // Fetch user's location and set default country code
+            const fetchGeolocation = async () => {
+                try {
+                    const response = await fetch('https://ipapi.co/json/', { mode: 'no-cors' });
+                    if (!response.ok) throw new Error(`Failed to fetch location: ${response.statusText}`);
+                    const data = await response.json();
+                    setDefaultCountry(data.country_code || 'AE'); // Fallback to 'AE' if not found
+                } catch (error) {
+                    console.error('Geolocation error:', error);
+                    setDefaultCountry('AE'); // Fallback to 'AE' on error
+                }
+            };
+
+            fetchGeolocation();
+        }, []);
 
     // Load event data dynamically
     useEffect(() => {
@@ -95,13 +113,6 @@ const HomePage = () => {
     return (
         <div className='lpMain_page'>
             <Helmet>
-                <link
-                    rel="preload"
-                    href="https://res.cloudinary.com/dftmldklw/image/upload/v1738070072/9_k0ftmj.webp"
-                    as="image"
-                    type="image/webp"
-                    sizes="(max-width: 600px) 100vw, (max-width: 1200px) 100vw, 100vw"
-                />
                 <title>{lpData?.MetaDataSEO?.metaTitle}</title>
                 <meta name="description" content={lpData?.MetaDataSEO?.metaDescription} />
                 <meta name="keywords" content={lpData?.MetaDataSEO?.metaKeywords} />
@@ -118,6 +129,7 @@ const HomePage = () => {
             <React.Suspense fallback={<div></div>}>
                 <RegistrationSection
                     RegistrationData={lpData?.RegistrationFormDetail}
+                    defaultCountry={defaultCountry}
                 />
             </React.Suspense>
             <React.Suspense fallback={<div></div>}>
@@ -128,6 +140,7 @@ const HomePage = () => {
                     isOpen={isRegistrationModalOpen}
                     onRequestClose={closeModals}
                     RegistrationData={lpData?.RegistrationFormDetail}
+                    defaultCountry={defaultCountry}
                 />
             </React.Suspense>
         </div>
