@@ -1,0 +1,811 @@
+.align-cent {
+  align-items: center;
+}
+
+.po-re {
+  position: relative;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.bg-gray {
+  background-color: #ededed;
+}
+
+.dot {
+  background-color: #f99c16;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 2px;
+  width: 10px;
+  height: 10px;
+}
+
+.banner_img {
+  position: relative;
+}
+
+.banner_img>img {
+  width: 100%;
+}
+
+.main_logo img {
+  position: absolute;
+  top: 10%;
+  width: 200px;
+}
+
+.second_row_section {
+  padding: 55px 0;
+}
+
+.second_row_section h2 {
+  color: #2a3884;
+  font-size: 42px;
+  font-weight: 500;
+}
+
+.second_row_section h5 {
+  color: #999;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.singapore_page .list_box {
+  background: #fff;
+  border-radius: 20px;
+  margin-bottom: 60px;
+  padding: 0;
+}
+
+.singapore_page .list_box a>img {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+}
+
+.singapore_page .list_box .box_details {
+  padding: 0 30px 30px;
+}
+
+.list_box .box_details h3 {
+  color: #2a3884;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  width: max-content;
+  padding: 0;
+  width: 60%;
+  min-height: 40px;
+}
+
+.list_box .box_details .row {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.list_box .box_details .row img {
+  width: 40%;
+}
+
+.list_box .box_details p.address {
+  min-height: 50px;
+}
+
+.list_box .box_details p.address,
+.list_box .box_details p.flate-type {
+  color: #828d98;
+  font-size: 18px;
+  font-family: "TT Commons", sans-serif;
+}
+
+.list_box .box_details h3 a {
+  color: #2a3884;
+  text-decoration: none;
+}
+
+.list_box .box_details p.address img,
+.list_box .box_details p.flate-type img {
+  padding-right: 15px;
+}
+
+.list_box .box_details p.flate-type {
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.list_box .box_details p.flate-type:after {
+  border-bottom: 1px solid;
+  bottom: 0;
+  content: "";
+  font-size: 20px;
+  left: 0;
+  position: absolute;
+  width: 57px;
+}
+
+.list_box .box_details span {
+  color: #2a3884;
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.list_box .box_details p.price {
+  border-bottom: 1px solid #cad2d8;
+  color: #f99c16;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.list_box .box_details button {
+  background: none;
+  border: none;
+  color: #575756;
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+.footer_section {
+  padding: 30px 0;
+}
+
+.bg-blue {
+  background-color: #1e4f91;
+}
+
+.footer_section .footer_left {
+  text-align: center;
+}
+
+.footer_section .footer_left p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 0;
+  font-family: "TT Commons", sans-serif;
+}
+
+.RegistrationFormModel {
+  position: relative;
+  inset: 0;
+  border: none;
+  background: rgba(0, 0, 0, 0.8);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px 30px;
+  height: 100vh;
+}
+
+.RegistrationFormModel .registration-form {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 10%;
+}
+
+.registrationpopup {
+  width: 45%;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  position: relative;
+  top: 7%;
+}
+
+.registrationpopup h2 {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #1E4F91;
+  border-radius: 10px 10px 0 0;
+  font-size: 34px;
+  color: #fff;
+}
+
+.registrationpopup h2 .dot {
+  height: 10px;
+  width: 10px;
+}
+
+.registrationpopup form {
+  padding: 35px;
+}
+
+.registrationpopup form input[type="text"],
+.registrationpopup form input[type="email"] {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #7F868D;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.registrationpopup form input[type="text"]:focus-visible,
+.registrationpopup form input[type="email"]:focus-visible {
+  outline: none;
+}
+
+.registrationpopup form input.formsubmitbtn {
+  display: block;
+  background-color: #E97C04;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 80px;
+  border: none;
+  border-radius: 50px;
+  margin-top: 45px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.registrationpopup form label {
+  color: #7F868D;
+  font-size: 15px;
+  padding-left: 5px;
+  font-weight: 300;
+}
+
+.ReactModal__Body--open {
+  overflow: hidden;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.registrationPopupForm .container-fluid {
+  padding: 0;
+}
+
+.registrationPopupForm .container {
+  padding: 0;
+}
+
+.registrationPopupForm {
+  background-color: #F2F2F2;
+  width: 50%;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  /* top: 5%; */
+  border-radius: 21px;
+}
+
+.registrationPopupForm .registration_img>img {
+  border-radius: 20px 0 0 20px;
+}
+
+.registrationPopupForm form {
+  margin-right: 30px;
+  /* margin-left: 30px; */
+}
+
+.registrationPopupForm input[type="text"],
+.registrationPopupForm input[type="email"] {
+  width: 100%;
+  border: none;
+  margin-bottom: 20px;
+  height: 45px;
+  background: transparent;
+  border-bottom: 1px solid #828D98;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 300;
+  display: block;
+  color: #575756;
+  font-family: 'TT Commons', sans-serif;
+}
+
+.registrationPopupForm input[type="text"]:focus-visible,
+.registrationPopupForm input[type="email"]:focus-visible,
+.registrationPopupForm .PhoneInput .PhoneInputInput:focus-visible {
+  outline: none !important;
+}
+
+.registrationPopupForm .PhoneInput {
+  width: 100% !important;
+  border: none;
+  margin-bottom: 20px !important;
+  height: 45px;
+  background: transparent;
+  border-bottom: 1px solid #828D98;
+  padding: 5px;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  border-radius: 0;
+  color: #575756 !important;
+  font-family: 'TT Commons', sans-serif !important;
+}
+
+.registrationPopupForm .PhoneInputInput {
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  color: #575756 !important;
+  font-family: 'TT Commons', sans-serif !important;
+  border: none;
+  background: transparent;
+}
+
+.registrationPopupForm .flag-dropdown {
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.registrationPopupForm .selected-flag {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.registrationPopupForm input#agree1 {
+  display: inline;
+
+}
+
+.registrationPopupForm label {
+  display: inline;
+  color: #575756;
+  font-family: 'TT Commons', sans-serif !important;
+  font-weight: 300;
+  padding-left: 3px;
+  font-size: 15px;
+}
+
+.registrationPopupForm input.formsubmitbtn {
+  display: block;
+  margin-top: 30px;
+  background-color: #EB8023;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  padding: 10px 60px;
+  border-radius: 50px;
+}
+
+.registrationPopupForm .reg_align {
+  align-items: center;
+}
+
+.registration_img>img {
+  width: 100%;
+}
+
+.mob_img {
+  display: none;
+}
+
+.RegistrationFormModel {
+  position: relative;
+  inset: 0;
+  border: none;
+  background: rgba(0, 0, 0, 0.8);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px 30px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.RegistrationFormModel .registration-form {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 10%;
+}
+
+.RegistrationFormModel .close-button {
+  background: transparent;
+  border: none;
+  position: absolute;
+  right: 25%;
+  top: 15%;
+  z-index: 1;
+}
+
+.RegistrationFormModel .close-button img {
+  width: 20px;
+  height: 20px;
+}
+
+
+.RegistrationFormModel .registration_img {
+  position: relative;
+}
+
+.RegistrationFormModel .reg_desc h2 {
+  color: #085394;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.RegistrationFormModel .reg_desc h2 .dot {
+  height: 6px;
+  width: 6px;
+}
+
+.RegistrationFormModel .reg_desc p {
+  font-family: 'TT Commons', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.locationHeading {
+  padding: 60px 0;
+}
+
+.locationHeading h2 {
+  color: #1e5091;
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+
+.locationHeading {
+
+  .react-tel-input .form-control,
+  input[type=email],
+  input[type=text] {
+    background: #0000;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0;
+    font-size: 20px;
+    font-weight: 300;
+    height: 60px;
+    margin-bottom: 30px;
+    width: 95%;
+  }
+}
+
+.locationHeading .PhoneInput {
+  border-bottom: 1px solid;
+  border-radius: 0;
+  height: 60px;
+  margin-bottom: 30px;
+  width: 95%;
+}
+
+.locationHeading input.PhoneInputInput {
+  background: #0000;
+  border: none;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.locationHeading input#agree1 {
+  background: #0000;
+  height: 30px;
+  margin-right: 20px;
+  width: 30px;
+}
+
+.locationHeading label {
+  display: inline-block;
+  font-size: 18px;
+}
+
+.locationHeading .man_algin {
+  align-items: center;
+  display: flex;
+}
+
+.locationHeading input.formsubmitbtn {
+  background-color: #eb8023;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 24px;
+  margin-top: 40px;
+  padding: 10px 120px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-btn {
+  margin: 0 5px;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 50%;
+}
+
+.page-btn.active {
+  background-color: #eb8023;
+  color: #fff;
+  border-color: #eb8023;
+}
+
+.page-btn:disabled {
+  background-color: #e9ecef;
+  cursor: not-allowed;
+}
+
+button.page-btn.prev_btn,
+button.page-btn.next_btn {
+  /* border-radius: 30px; */
+  /* width: 130px; */
+  border: none;
+  background: transparent;
+  text-decoration: underline;
+}
+
+input:focus-visible {
+  outline: none !important;
+}
+input:-internal-autofill-selected {
+  background: transparent !important;
+}
+
+@media (max-width: 767px) {
+
+  /* CSS */
+  .main_logo img {
+    width: 15%;
+  }
+
+  .second_row_section {
+    padding: 35px 0;
+  }
+
+  .second_row_section h2,
+  .locationHeading h2 {
+    font-size: 26px;
+  }
+
+  .second_row_section h5 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .list_box .box_details .row img {
+    width: 100px;
+  }
+
+  .list_box .box_details h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    min-height: auto;
+  }
+
+  .list_box .box_details p.address {
+    min-height: auto;
+    font-size: 13px;
+  }
+
+  .list_box .box_details p.price {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .list_box .box_details button {
+    font-size: 15px;
+  }
+
+  .deck_img {
+    display: none;
+  }
+
+  .mob_img {
+    display: block;
+  }
+
+  .registrationPopupForm {
+    border-radius: 15px;
+    top: 3%;
+    width: 85% !important;
+  }
+
+  .registrationPopupForm .registration_img>img {
+    border-radius: 11px;
+  }
+
+  .registrationPopupForm form {
+    background-color: #fff;
+    border-radius: 10px;
+    left: 0;
+    margin: 0 auto;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+    top: 19%;
+    width: 85% !important;
+  }
+
+  .RegistrationFormModel .reg_desc h2 {
+    font-size: 23px;
+  }
+
+  .RegistrationFormModel .reg_desc p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .registrationPopupForm form .PhoneInput,
+  .registrationPopupForm form input[type=email],
+  .registrationPopupForm form input[type=text] {
+    border-radius: 0;
+    font-size: 13px !important;
+    font-weight: 300 !important;
+    height: 35px;
+    margin-bottom: 10px !important;
+  }
+
+  .registrationPopupForm form .PhoneInputInput {
+    font-size: 13px !important;
+    font-weight: 300 !important;
+  }
+
+  .registrationPopupForm form input.formsubmitbtn {
+    font-size: 15px;
+    margin: 15px auto;
+    padding: 7px 60px;
+  }
+
+  .close-button {
+    right: .5% !important;
+    top: .5% !important;
+  }
+
+  .close-button img {
+    height: 15px !important;
+    width: 15px !important;
+  }
+
+  .page-btn {
+    padding: 6px 14px;
+  }
+
+  .locationHeading {
+
+    .react-tel-input .form-control,
+    input[type=email],
+    input[type=text] {
+      font-size: 16px;
+      height: 40px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .locationHeading input.PhoneInputInput {
+    font-size: 16px;
+  }
+
+  .locationHeading .PhoneInput {
+    height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .locationHeading input.formsubmitbtn {
+    font-size: 20px;
+    margin-top: 18px;
+    padding: 6px 65px;
+  }
+
+  .footer_section .footer_left p {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* CSS */
+  .main_logo img {
+    width: 15%;
+  }
+
+  .second_row_section h2 {
+    font-size: 28px;
+  }
+
+  .second_row_section h5 {
+    font-size: 20px;
+  }
+
+  .list_box .box_details h3 {
+    font-size: 16px;
+  }
+
+  .list_box .box_details .row img {
+    width: 100px;
+  }
+
+  .registrationPopupForm {
+    width: 75%;
+    top: 10%;
+  }
+
+  .RegistrationFormModel .close-button {
+    right: 12%;
+    top: 5%;
+  }
+
+  .registrationPopupForm form {
+    margin-right: 30px;
+    margin-left: 0px;
+  }
+
+  .RegistrationFormModel .reg_desc h2 {
+    font-size: 20px;
+  }
+
+  .RegistrationFormModel .reg_desc p {
+    font-size: 13px;
+    line-height: normal;
+  }
+
+  .registrationPopupForm input[type="text"],
+  .registrationPopupForm input[type="email"],
+  .registrationPopupForm .PhoneInput {
+    /* margin-bottom: 7px !important; */
+    /* height: 30px !important; */
+    font-size: 16px;
+  }
+
+  .registrationPopupForm .PhoneInputInput {
+    font-size: 15px !important;
+  }
+
+  .registrationPopupForm input.formsubmitbtn {
+    margin-top: 15px;
+    font-size: 16px;
+    padding: 10px 40px;
+  }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1400px) {
+  .registrationPopupForm {
+    width: 65%;
+  }
+
+  .registrationPopupForm form {
+    margin-right: 30px;
+    margin-left: 0;
+  }
+
+  .RegistrationFormModel .close-button {
+    right: 18%;
+    top: 15%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1300px) {
+  .RegistrationFormModel .close-button {
+    top: 5% !important;
+  }
+
+  .RegistrationFormModel .reg_desc h2 {
+    font-size: 28px;
+  }
+
+  .RegistrationFormModel .reg_desc p {
+    font-size: 14px;
+    line-height: normal;
+  }
+}

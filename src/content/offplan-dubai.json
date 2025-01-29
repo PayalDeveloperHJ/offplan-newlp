@@ -1,0 +1,333 @@
+{
+    "MetaDataSEO": {
+        "metaTitle": "Off Plan Properties in Dubai | Explore All Projects | HJ Real Estate",
+        "metaDescription": "Explore top off plan Dubai properties with HJ Real Estate. Find luxury apartments, villas, and townhouses in prime locations with flexible payment plans.",
+        "metaKeywords": "off plan Dubai, Dubai off plan properties, off plan projects in Dubai, Dubai real estate, luxury apartments in Dubai, villas in Dubai, townhouses in Dubai, HJ Real Estate"
+    },
+    "RegistrationFormDetail": {
+        "title": "Register Your Interest",
+        "description": "Fill out the form, and one of our team members will get in touch with you soon",
+        "APIKey": "YzdhYWYxZTgtMDY0Ni00YTk0LTg5MzItMWI3MjY5OWU0MDNh",
+        "countryCode": "AE",
+        "deskBanner": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070082/invitation-card_mrkqzr.webp",
+        "mobBanner": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070083/invitation-card-mobile_qfbhto.webp"
+    },
+    "propertySection": {
+        "title": "Off Plan Dubai Properties",
+        "subtitle": "Discover your dream investment",
+        "startingFrom": "STARTING FROM",
+        "talkToAgent": "Talk to an agent  ",
+        "PropertyList": [
+            {
+                "id": "2",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070071/01_nqhgkm.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071365/damac-black-logo_w8auem.svg",
+                "projectName": "Dubailand",
+                "appartmentType": "4-5 Bedroom Townhouses and 6-7 Bedroom Villas",
+                "address": "Expo Living, Expo City",
+                "price": "AED 2,250,000",
+                "projectLink": "https://hjrealestates.com/project/damac-islands"
+            },
+            {
+                "id": "19",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070072/1_iubbux.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071365/damac-black-logo_w8auem.svg",
+                "projectName": "Riverside Views",
+                "appartmentType": "4 & 5 Bedroom Townhouses",
+                "address": "Dubai Investment Park 2",
+                "price": "AED 1,990,000",
+                "projectLink": "https://hjrealestates.com/project/damac-riverside-views"
+            },
+            {
+                "id": "22",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070072/2_zaaze8.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071365/damac-black-logo_w8auem.svg",
+                "projectName": "Violet",
+                "appartmentType": "4-Bedroom Townhouses",
+                "address": "Damac Hills 2",
+                "price": "AED 1,900,000",
+                "projectLink": "https://hjrealestates.com/project/damac-violet"
+            },
+            {
+                "id": "5",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070072/3_ce2ccf.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071365/damac-black-logo_w8auem.svg",
+                "projectName": "Sun City",
+                "appartmentType": "4 & 5 Bedroom Townhouses",
+                "address": "Dubailand",
+                "price": "AED 2,250,000",
+                "projectLink": "https://hjrealestates.com/project/damac-suncity"
+            },
+            {
+                "id": "30",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070072/4_xeq3m3.webp",
+                "projectName": "Damac Lagoons Views",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071365/damac-black-logo_w8auem.svg",
+                "appartmentType": "1 & 2 Bedroom Apartments",
+                "address": "Damac Hills",
+                "price": "AED 979,000",
+                "projectLink": "https://hjrealestates.com/project/damac-lagoon-views"
+            },
+            {
+                "id": "25",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070072/5_jh1g4v.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071365/damac-black-logo_w8auem.svg",
+                "projectName": "Damac Bay 2",
+                "appartmentType": "1-3 Bedroom Apartments & Ultra-Luxury 3-5 Bedroom Apartments",
+                "address": "Dubai Harbour",
+                "price": "AED 3,500,000",
+                "projectLink": "https://hjrealestates.com/project/damac-bay2"
+            },
+            {
+                "id": "3",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070072/6_x4fjaw.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071366/developer-icon-black_xcbsng.svg",
+                "projectName": "Terra Heights",
+                "appartmentType": "1, 2 Bedrooms Apartment",
+                "address": "Expo Living, Expo City",
+                "price": "AED 1,400,000",
+                "projectLink": "https://hjrealestates.com/project/terra-heights"
+            },
+            {
+                "id": "12",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070072/7_iw52ii.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071366/developer-icon-black_xcbsng.svg",
+                "projectName": "Vida Residences",
+                "appartmentType": "1, 2, 3 Bedrooms Apartment",
+                "address": "Dubai Hills Estate",
+                "price": "AED 1,610,000",
+                "projectLink": "https://hjrealestates.com/project/vida-residences"
+            },
+            {
+                "id": "10",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070072/8_kqwv0e.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071366/developer-icon-black_xcbsng.svg",
+                "projectName": "Address Residences",
+                "appartmentType": "1, 2, 3 Bedrooms Apartment/Town House",
+                "address": "Dubai Creek Harbour",
+                "price": "AED 2,000,000",
+                "projectLink": "https://hjrealestates.com/project/address-residences"
+            },
+            {
+                "id": "1",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070072/9_k0ftmj.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071366/developer-icon-black_xcbsng.svg",
+                "projectName": "Greenville",
+                "appartmentType": "3,4 Bedroom Townhouses",
+                "address": "Emaar South",
+                "price": "AED 3,200,000",
+                "projectLink": "https://hjrealestates.com/project/greenville"
+            },
+            {
+                "id": "6",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070072/10_kvflhc.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071366/developer-icon-black_xcbsng.svg",
+                "projectName": " Velora 2",
+                "appartmentType": "3,4 Bedroom Townhouses",
+                "address": "The Valley Phase 2",
+                "price": "AED 2,930,000",
+                "projectLink": "https://hjrealestates.com/project/velora2"
+            },
+            {
+                "id": "31",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070073/11_mce7pf.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071366/developer-icon-black_xcbsng.svg",
+                "projectName": "Palace Residences",
+                "appartmentType": "1, 2, 3 Bedroom Apartment",
+                "address": "Dubai Creek Harbour",
+                "price": "AED 1,870,000",
+                "projectLink": "https://hjrealestates.com/project/palace-residences"
+            },
+            {
+                "id": "11",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070073/12_v6empi.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071365/danube-logo_wovkeh.svg",
+                "projectName": "Oasiz",
+                "appartmentType": "Studio, 1, 2, 3 Bedrooms",
+                "address": "Silicon Oasis, Dubai",
+                "price": "AED 699,000",
+                "projectLink": "https://hjrealestates.com/project/danube-oasiz"
+            },
+            {
+                "id": "16",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070073/13_phtwuk.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071365/danube-logo_wovkeh.svg",
+                "projectName": "Bayz 102",
+                "appartmentType": "Studio, 1, 2, 3, 4 Bedrooms, Penthouse",
+                "address": "Business Bay, Dubai",
+                "price": "AED 1,270,000",
+                "projectLink": "https://hjrealestates.com/project/bayz102"
+            },
+            {
+                "id": "18",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070073/14_eyw4bd.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071365/danube-logo_wovkeh.svg",
+                "projectName": "DIAMONDZ",
+                "appartmentType": "Studio, 1, 2, 3, 4 Bedrooms",
+                "address": "Jumeirah Lake Towers (JLT)",
+                "price": "AED 1,100,000",
+                "projectLink": "https://hjrealestates.com/project/danube-diamondz"
+            },
+            {
+                "id": "20",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070073/15_ocv4no.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071365/danube-logo_wovkeh.svg",
+                "projectName": "Bayz 101",
+                "appartmentType": "Studio, 1, 2, 3, 4 Bedrooms",
+                "address": "Business Bay, Dubai",
+                "price": "AED 1,175,000",
+                "projectLink": ""
+            },
+            {
+                "id": "23",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070075/16_dokrzm.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071365/danube-logo_wovkeh.svg",
+                "projectName": "OCEANZ",
+                "appartmentType": "1, 2 , 3 Bedroom Apartments",
+                "address": "Dubai Maritime City",
+                "price": "AED 1,100,000",
+                "projectLink": "https://hjrealestates.com/project/danube-bayz101"
+            },
+            {
+                "id": "24",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070076/17_qajhoq.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071365/danube-logo_wovkeh.svg",
+                "projectName": "FASHIONZ",
+                "appartmentType": "1, 1.5 , 2 , 2.5 and 3 Bedroom Apartments",
+                "address": "Jumeirah Village Triangle (JVT)",
+                "price": "AED 850,000",
+                "projectLink": "https://hjrealestates.com/project/danube-fashionz"
+            },
+            {
+                "id": "4",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070077/18_hptmoh.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071361/binghatti-black-logo_j5lpqp.svg",
+                "projectName": "Binghatti Elite",
+                "appartmentType": "Studio, 1 Bedrooms Apartment",
+                "address": "Dubai Production City",
+                "price": "AED 600,000",
+                "projectLink": "https://hjrealestates.com/project/binghatti-elite"
+            },
+            {
+                "id": "7",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070077/19_n6zrtk.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071361/binghatti-black-logo_j5lpqp.svg",
+                "projectName": "Binghatti Skyrise",
+                "appartmentType": "Studio, 1, 2, 3 Bedrooms Apartment",
+                "address": "Business Bay",
+                "price": "AED 975,000",
+                "projectLink": "https://hjrealestates.com/project/binghatti-skyrise"
+            },
+            {
+                "id": "13",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070077/20_qoe8n1.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071361/binghatti-black-logo_j5lpqp.svg",
+                "projectName": "Binghatti Grove",
+                "appartmentType": "1, 2, 3 Bedrooms Apartment",
+                "address": "Jumeirah Village Circle (JVC)",
+                "price": "AED 1,200,000",
+                "projectLink": "https://hjrealestates.com/project/binghatti-grove"
+            },
+            {
+                "id": "14",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070077/21_lej7zq.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071361/binghatti-black-logo_j5lpqp.svg",
+                "projectName": "Binghatti Ghost",
+                "appartmentType": "Studio, 1, 2, 3 Bedroom Apartment",
+                "address": "Al Jaddaf",
+                "price": "AED 889,000",
+                "projectLink": "https://hjrealestates.com/project/binghatti-ghost"
+            },
+            {
+                "id": "26",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070077/22_yrpg1k.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071361/binghatti-black-logo_j5lpqp.svg",
+                "projectName": "Bugatti Residence",
+                "appartmentType": "2, 3, & 4 bedroom Sky Mansions and Penthouses",
+                "address": "Business Bay",
+                "price": "AED 19,000,000",
+                "projectLink": "https://hjrealestates.com/project/bugatti-residence"
+            },
+            {
+                "id": "29",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070078/23_sarant.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071361/binghatti-black-logo_j5lpqp.svg",
+                "projectName": "Burj Binghatti",
+                "appartmentType": " 2, 3 bedroom suites and penthouses",
+                "address": "Business Bay",
+                "price": "AED 8,000,000",
+                "projectLink": "https://hjrealestates.com/project/burj-binghatti"
+            },
+            {
+                "id": "17",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070079/24_jbx9jp.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071353/sobha-icon_xod1tm.svg",
+                "projectName": "Sobha Siniya Island",
+                "appartmentType": "4, 5 & 6 Bedrooms",
+                "address": "Siniya Island, Umm Al Quwain",
+                "price": "AED 10,500,000",
+                "projectLink": ""
+            },
+            {
+                "id": "8",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070079/25_j45jmi.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071353/sobha-icon_xod1tm.svg",
+                "projectName": "Sobha Solis",
+                "appartmentType": "1, 1.5, 2 and 3-Bedroom Apartments",
+                "address": "Motor City",
+                "price": "AED 1,010,000",
+                "projectLink": ""
+            },
+            {
+                "id": "27",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070080/26_xsajkr.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071353/sobha-icon_xod1tm.svg",
+                "projectName": "Sobha One",
+                "appartmentType": "1 to 4 Bedroom",
+                "address": "Ras Al Khor",
+                "price": "AED 1,500,000",
+                "projectLink": ""
+            },
+            {
+                "id": "21",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070080/27_txyf7w.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071353/sobha-icon_xod1tm.svg",
+                "projectName": "Sobha Reserve Villas",
+                "appartmentType": "4-6 Bedrom Villas",
+                "address": "Wadi Al Safa 2",
+                "price": "AED 9,300,000",
+                "projectLink": ""
+            },
+            {
+                "id": "28",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070081/28_ypctzr.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071353/sobha-icon_xod1tm.svg",
+                "projectName": "Sobha Hartland 2",
+                "appartmentType": "1-4 Bedrooms, 5-6 Bedroom Villas",
+                "address": "Sobha Hartland 2",
+                "price": "AED 1,140,000",
+                "projectLink": ""
+            },
+            {
+                "id": "9",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070081/29_ffiywr.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071353/sobha-icon_xod1tm.svg",
+                "projectName": "Sobha Elwood",
+                "appartmentType": "4-6 Bedroom Villas",
+                "address": "Al Yufrah",
+                "price": "AED 7,900,000",
+                "projectLink": ""
+            },
+            {
+                "id": "15",
+                "img": "https://res.cloudinary.com/dftmldklw/image/upload/v1738070081/30_pfmfow.webp",
+                "developerLogo": "https://res.cloudinary.com/dftmldklw/image/upload/v1738071364/burtville-logo_rpvj5r.svg",
+                "projectName": "Ville 12",
+                "appartmentType": "1,2,3,4 & 5 Bedroom Apartments",
+                "address": "Masdar City",
+                "price": "AED  950,000",
+                "projectLink": ""
+            }
+        ]
+    }
+}
